@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: black; /* es para que con la opacidad se vea gris*/
+    background-image: url(img/stars.png);
+    background: url(img/Stars\ 2.png) center / cover no-repeat fixed;
+}
+
+
+.header {
+    background-color:#ffffff20;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.nav_navegate {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+
+.nav_links {
+    display: flex;
+    justify-content:space-between;
+    width: 18%;
+}
+.nav_links a {
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 24px;
+}
+.link_mod {
+    border-bottom: #B773FB 2px solid;
+}
+
+
+.nav_user {
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50px;
+    gap: 5px;
+    padding: 5px 10px;
+}
+.nav_user p {
+    margin: 0;
+    color: #ffffff;
+}
