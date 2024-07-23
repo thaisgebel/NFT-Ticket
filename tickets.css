@@ -1,8 +1,8 @@
 body {
     margin: 0;
     background-color: black; /* es para que con la opacidad se vea gris*/
-    background-image: url(img/stars.png);
-    background: url(img/Stars\ 2.png) center / cover no-repeat fixed;
+    background-image: url(image/stars.png);
+    background: url(image/Stars\ 2.png) center / cover no-repeat fixed;
     font-family: "Work Sans", sans-serif;
 }
 
